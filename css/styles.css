@@ -1,0 +1,177 @@
+h1,h2,h3{
+    font-family: "Montserrat";
+}
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: gray;
+}
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img-class {
+    position: relative;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 15%;
+    position: absolute;
+}
+
+#features {
+    padding: 13% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    padding: 5%
+}
+
+.fa-features {
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 7%;
+}
+
+.fa-features:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+#pricing {
+    padding: 80px;
+}
+
+.price-column {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.cta-text {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.btn-cta {
+    margin: 5% 2%;
+}
+
+.cta-app {
+    margin-right: 4px;
+}
+
+#footer {
+    background-color: #fff;
+    padding: 7% 15%;
+}
+
+.footer-icon {
+    color: #000;
+    font-size: 1.5rem;
+    margin: 4% 1% 2%;
+
+}
+
+@media (max-width:1000px) {
+    h1 {
+        font-size: 2.65rem;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+        margin: auto;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
